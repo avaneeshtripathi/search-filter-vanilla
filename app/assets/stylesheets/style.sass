@@ -1,0 +1,92 @@
+body
+  margin: 0
+
+header
+  font-size: 32px
+  line-height: 48px
+  position: fixed
+  width: 100%
+  background-color: #fff
+
+.headerContent
+  border: 4px solid #000
+  padding: 10px 40px
+
+.listDataView
+  padding: 100px 40px 0
+
+.dataListingTable
+  margin: 0
+  padding: 0
+  width: 70%
+  list-style-type: none
+  display: table
+  > li
+    display: table-row
+    &:first-child
+      .tableCell
+        border-top: 1px solid #000
+  .tableCell
+    display: table-cell
+    width: 20%
+    padding: 5px
+    border-bottom: 1px solid #000
+    border-right: 1px solid #000
+    &:first-child
+      border-left: 1px solid #000
+  .tableHead
+    background-color: #909090
+  .tableBody:nth-child(odd)
+    background-color: #e2e2e2
+
+.filterListing
+  width: 28%
+  border: 1px solid #000
+  text-align: center
+  padding: 20px 0
+  input
+    margin-right: 10px
+    line-height: 30px
+    height: 30px
+  button
+    padding: 6px 20px
+  .addFilterButton
+    margin-bottom: 20px
+  .addFilterWrap
+    select
+      display: block
+      margin: 0 auto 10px
+      width: 200px
+      line-height: 30px
+      height: 30px
+
+.filtersList
+  margin: 0
+  padding: 0 30px 20px
+  list-style-type: none
+  text-align: left
+  li
+    padding: 10px 0
+    border-bottom: 2px solid #000
+    span
+      line-height: 30px
+
+.notAccessibleBlock
+  font-size: 40px
+  line-height: 60px
+  color: #ff3737
+  text-align: center
+  padding: 100px 40px
+  font-weight: bold
+
+.floatLeft
+  float: left
+
+.floatRight
+  float: right
+
+.clearFloat::after
+  content: ''
+  display: block
+  float: none
+  clear: both
