@@ -5,7 +5,7 @@ class Header extends React.Component{
         return (
             <header>
                 <div className="headerContent">
-                    Sokrati Data Analytics
+                    XYZ Data Analytics
                 </div>
             </header>
         );
